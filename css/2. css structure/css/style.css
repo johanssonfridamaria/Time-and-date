@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #dddddd;
+    color: #222222;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.card-1 {
+    background-color: #222222;
+    color: #ffffff;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid pink;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+.card-1 h2 {
+    font-size: 2rem;
+}
+
+.card-1 p {
+    font-size: 1rem;
+}
+
+.card-3 {
+    margin-top: 2rem;
+    border: 2px dashed black;
+    padding: 2rem;
+}
+
+.card-3 ul {
+    list-style-type: none;
+}
+
+.card-3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-3 a:hover {
+    color: green;
+}
+
+.card-3 li:nth-last-child(odd) {
+    color: green;
+}
+.links{
+    margin-top:2rem;
+}
+
+.link {
+    border: 1px solid grey;
+    width: 250px;
+    height: 50px;
+}
+
+.fridas-knapp {
+    margin-top: 2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #222;
+    color:#ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.fridas-knapp:hover{
+    background-color: #ccc;
+    color: #222;
+}
+
+.fridas-knapp:active{
+    background-color: green;
+}

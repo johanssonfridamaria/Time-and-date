@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid greenyellow;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding: 2em 3em;
+    border: 1px solid pink;
+}
