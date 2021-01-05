@@ -9,4 +9,4 @@ I added a greeting that changes depending on the hour of the day.
 ## Tech used: 
 HTML, CSS, Javascript.
 
-### View it here: https://elegant-pike-d96fd0.netlify.app/
+### View it here: https://time-and-date.netlify.app/
